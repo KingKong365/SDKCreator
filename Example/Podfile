@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SDKCreator_Example' do
+  pod 'SDKCreator', :path => '../'
+
+  target 'SDKCreator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

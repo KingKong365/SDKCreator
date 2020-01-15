@@ -1,0 +1,6 @@
+framework module SDKCreator {
+  umbrella header "SDKCreator-umbrella.h"
+
+  export *
+  module * { export * }
+}

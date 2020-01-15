@@ -1,0 +1,27 @@
+{
+  "name": "SDKCreator",
+  "version": "0.1.0",
+  "summary": "A short description of SDKCreator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Messi/SDKCreator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Messi": "jscpmessi@itcom888.com"
+  },
+  "source": {
+    "git": "https://github.com/Messi/SDKCreator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SDKCreator/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
